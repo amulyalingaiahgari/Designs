@@ -6,8 +6,7 @@ module mem64 (
   input wr,
   input [5:0] waddr,
   input clk,
-  input rst
-);
+  input rst );
 
   wire [15:0] dout0, dout1;
   wire rd0, rd1, wr0, wr1;
